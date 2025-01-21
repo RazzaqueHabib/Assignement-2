@@ -1,9 +1,13 @@
+.full-container{
+    background: url(assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 50%);
+}
+
 .quicksand-regular {
   font-family: "Quicksand", serif;
   margin: 0 150px;
   padding: 0;
   border-radius: border-box;
-  background: url(assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 50%);
+  
   /* border: 1px solid black; */
   
 }
@@ -199,7 +203,168 @@
 }
 
 /* Story Section==================================================== */
+.story{
+    margin-bottom: 60px;
+}
 .story-heading{
     font-size: 3.2rem;
     text-align: center;
+    margin-bottom: 50px;
+}
+.story-container{
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.common-story{
+    display: grid;
+    gap:25px;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+
+}
+.first-story{
+    height: 700px;
+    width: 600px;
+    border-radius: 20px;
+    border: 1px solid white;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    position: relative;
+    overflow: hidden;
+} 
+.first-story > img{
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    width: 600px;
+    max-height: 100%;
+    object-fit: cover;
+}
+.first-story > h3{
+    font-size: 1.5rem;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+.story-description{
+    margin-top: -25px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.first-story > button{
+    position: absolute;
+    top:350px;
+    left: 50px;
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-size: 1.25rem;
+    background-color: #FEA301;
+    border: none;
+
+}
+.common-story{
+    height: 700px;
+    width: 800px;
+    /* border: 2px solid black; */
+
+}
+.common{
+    height: 340px;
+    width: 350px;
+    border-radius: 20px;
+    border: 1px solid white;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    position: relative;
+    overflow: hidden;
+} 
+.common > img{
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    width: 350px;
+    max-height: 100%;
+    object-fit: cover;
+}
+.common > h3{
+    margin-left: 15px ;
+    margin-top: 35px;
+}
+.btnOne{
+    position: absolute;
+    top:193px;
+    left: 47px;
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-size: .9rem;
+    background-color: #FEA301;
+    border: none;
+}
+.btnTwo{
+    position: absolute;
+    top:193px;
+    left: 47px;
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-size: .9rem;
+    background-color: #FEA301;
+    border: none;
+}
+.btnThree{
+    position: absolute;
+    top:200px;
+    left: 60px;
+    border-radius: 50px;
+    padding: 10px 40px;
+    font-size: .9rem;
+    background-color: #FEA301;
+    border: none;
+}
+.btnFour{
+    position: absolute;
+    top:200px;
+    left: 47px;
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-size: .9rem;
+    background-color: #FEA301;
+    border: none;
+}
+.view-btn{
+    font-size: 1rem;
+    padding: 7px 40px;
+    border-radius: 8px;
+    color: white;
+    background-color: black;
+    place-items: center;
+    margin-top: 20px;
+}
+.mizan{
+    text-align: center;
+}
+
+.footer-container{
+    /* margin:0; */
+    margin-left: -7px;
+    margin-bottom: -7px;
+    padding: 100px;
+    width: 1478px;
+    height: 400px;
+    background-color: #01ACFD;
+}
+.education-sector{
+    color: white;
+}
+.education-sector{
+    width: 300px;
+    justify-content: start;
+    align-items: center;
+    gap: 30px;
+}
+.kids-education{
+    font-size: 2.5rem;
 }
