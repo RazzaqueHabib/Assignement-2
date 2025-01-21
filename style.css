@@ -198,3 +198,8 @@
     border-radius: 50%;
 }
 
+/* Story Section==================================================== */
+.story-heading{
+    font-size: 3.2rem;
+    text-align: center;
+}
