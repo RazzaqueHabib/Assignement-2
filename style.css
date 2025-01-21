@@ -110,14 +110,22 @@
     font-size: 1rem;
     
 }
+marquee{
+    margin-top: 5px;
+    color:blue;
+    font-size: 1.5rem;
+    background-color: skyblue;
+    
+}
 
 
 
 
 .curriculumSection{
-    margin-left: 50px;
+    margin-left: 0;
     margin-bottom: 100px;
     margin-top: 150px;
+    margin-right: 0;
 }
 .curriculum{
     font-size: 3.2rem;
@@ -301,7 +309,7 @@
     border-radius: 50px;
     padding: 10px 20px;
     font-size: .9rem;
-    background-color: #FEA301;
+    background-color: #01ACFD;
     border: none;
 }
 .btnTwo{
@@ -311,7 +319,7 @@
     border-radius: 50px;
     padding: 10px 20px;
     font-size: .9rem;
-    background-color: #FEA301;
+    background-color: slateblue;
     border: none;
 }
 .btnThree{
@@ -321,7 +329,7 @@
     border-radius: 50px;
     padding: 10px 40px;
     font-size: .9rem;
-    background-color: #FEA301;
+    background-color: pink;
     border: none;
 }
 .btnFour{
@@ -331,7 +339,7 @@
     border-radius: 50px;
     padding: 10px 20px;
     font-size: .9rem;
-    background-color: #FEA301;
+    background-color: lightcoral;
     border: none;
 }
 .view-btn{
@@ -351,20 +359,62 @@
     /* margin:0; */
     margin-left: -7px;
     margin-bottom: -7px;
-    padding: 100px;
+    padding: 100px 100px;
     width: 1478px;
-    height: 400px;
+    height: 300px;
     background-color: #01ACFD;
 }
 .education-sector{
     color: white;
 }
 .education-sector{
-    width: 300px;
+    
     justify-content: start;
     align-items: center;
-    gap: 30px;
+    gap: 10px;
+    flex-wrap: nowrap;
+}
+.education-sector > img{
+    height: 90px;
+    margin-top: -10px;
 }
 .kids-education{
     font-size: 2.5rem;
+}
+
+.finalOne > p{
+    font-size: 1.25rem;
+    color:white;
+    margin-top: -1px;
+}
+.footer-container{
+    display: grid;
+    grid-template-columns: 350px 300px 250px;
+    gap:70px;
+    justify-content: center;
+    
+}
+.aboutSchool{
+    margin-top: 15px;
+}
+.aboutSchool >h3{
+    font-size: 1.5rem;
+    color: white;
+    margin-bottom: 43px;
+}
+.aboutSchool >li{
+    list-style-type: none;
+    margin-top: 15px;
+}
+.aboutSchool > li > a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.25rem;
+}
+.keepInTouch{
+    margin-top: 20px;
+}
+.keepInTouch > h3{
+    font-size: 1.5rem;
+    color: white;
 }
