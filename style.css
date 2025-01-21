@@ -1,0 +1,200 @@
+.quicksand-regular {
+  font-family: "Quicksand", serif;
+  margin: 0 150px;
+  padding: 0;
+  border-radius: border-box;
+  background: url(assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 50%);
+  /* border: 1px solid black; */
+  
+}
+
+/* shared style===================================================> */
+
+.display-flex{
+    display: flex;
+}
+
+/* ==========navbar and hero area=====================================> */
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+.main-menu{
+    gap: 30px;
+    justify-content: space-around;
+}
+
+.main-menu > li{
+    list-style-type: none;
+}
+.main-menu > li > a{
+    text-decoration: none;
+}
+.home{
+    color: #FEA301;
+    font-size: 1.25rem;
+}
+.about{
+    color: #01ACFD;
+    font-size: 1.25rem;
+}
+.facilities{
+    color:#05D4DF;
+    font-size: 1.25rem;
+}
+.last-menu{
+    color: #5D58EF;
+    font-size: 1.25rem;
+}
+.btn-primary{
+    color: white;
+    background-color: #FEA301;
+    border: none;
+    border-radius: 7px;
+    padding: 10px 55px;
+}
+
+.school-name{
+    display: flex;
+    align-items: center;
+    gap:5px;
+}
+.school-name img{
+    height: 50px;
+}
+.kid{
+    font-size: 1.7rem;
+}
+.hero-area-field{
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+    
+}
+.hero-area{
+    width: 650px;
+    height: 300px;
+    
+    
+    
+}
+.vision-part{
+    font-size: 3rem;
+    margin-top: 0;
+}
+
+.empowering{
+    color: #FEA301;
+
+}
+.vision{
+    color: #01ACFD;
+}
+.vision-description{
+    font-size: 1.25rem;
+    margin-top: 0;
+}
+.enroll-btn{
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 7px 30px;
+    font-size: 1rem;
+    
+}
+
+
+
+
+.curriculumSection{
+    margin-left: 50px;
+    margin-bottom: 100px;
+    margin-top: 150px;
+}
+.curriculum{
+    font-size: 3.2rem;
+    text-align: center;
+}
+.card-items{
+    justify-content: space-between;
+    gap:20px;
+    
+    
+}
+.cardHeading{
+    font-size: 1.5rem;
+}
+.problem{
+    margin-top: 40px;
+}
+.card{
+    width: 395px;
+    height: 500px;
+    padding: 40px 20px;
+    text-align: center;
+}
+.card-description{
+    color: gray;
+    font-size: 1.25rem;
+}
+.rdMoreOne{
+    color: red;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.rdMoreTwo{
+    color: green;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.rdMoreThree{
+    color: blue;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.kinder{
+    box-sizing: border-box;
+    border: 0.94px solid rgb(222, 245, 255);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+.elementary{
+    box-sizing: border-box;
+    border: 0.94px solid rgb(255, 244, 220);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+.middle{
+    box-sizing: border-box;
+    border: 0.94px solid rgb(242, 232, 255);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+
+.next-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+}
+.awesome{
+    color: white;
+    background-color: tomato;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    align-items: center;
+    font-size: 1.5rem;
+    border-radius: 50%;
+}
+
