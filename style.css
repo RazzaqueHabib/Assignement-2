@@ -71,7 +71,7 @@
 }
 .hero-area-field{
     display: flex;
-    gap: 50px;
+    gap: 20px;
     justify-content: space-between;
     align-items: center;
     
@@ -417,4 +417,25 @@ marquee{
 .keepInTouch > h3{
     font-size: 1.5rem;
     color: white;
+}
+
+
+/* Responsive start here=============================> */
+@media screen and (max-width:576px){
+    .card-items{
+        flex-direction: column;
+    }
+    .hero-area-field{
+        flex-direction: column-reverse;
+    }
+    .hiddenOnMobile{
+        display: none;
+    }
+    .common-story{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .footer-container{
+        grid-template-columns: 1fr;
+    }
+
 }
